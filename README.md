@@ -19,6 +19,8 @@
 * 변수의 scope
 * GUI프로그래밍
 * 웹에서 프로그램 실행하기
-  * 
+
+   * https://makepassword.streamlit.app/
+   * https://webtest-l5qeznt4kjfzoi8uhz2pg3.streamlit.app/
 * 클래스
 * 시각화
