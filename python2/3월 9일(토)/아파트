@@ -1,3 +1,5 @@
-url = 'http://openapi.molit.go.kr/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTradeDev?serviceKey=Qm%2FSxTC4k4vYtw5LKeqyTg%2F params ={'pageNo' : '1', 'numOfRows' : '30', 'LAWD_CD' : '11650', 'DEAL_YMD' : '202401' }
+import requests
+
+url = 'http://openapi.molit.go.kr/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTradeDev?serviceKey=Qm%2FSxTC4k4vYtw5LKeqyTg%2FQ8vtQXBAP6PQFRjWClRCd7sFMNMlwW9x6%2BmsUEv0pObk76HsEYyhCueQU7RLfNQ%3D%3D' 
+params ={'pageNo' : '1', 'numOfRows' : '30', 'LAWD_CD' : '11650', 'DEAL_YMD' : '202401' }
 response = requests.get(url, params=params)
-# www.code.go.kr 에서 법정동 코드 10자리 중
